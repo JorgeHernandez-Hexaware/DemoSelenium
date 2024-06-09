@@ -1,0 +1,30 @@
+package com.seleniumframework.Models;
+
+public enum Actions {
+    AlertAccept,
+    AlertAcceptIfExist,
+    AlertGetText,
+    AlertSetText,
+    Navigate,
+    Back,
+    Click,
+    Clear,
+    Check,
+    Forward,
+    FullscreenWindow,
+    MaximizeWindow,
+    MinimizeWindow,
+    NewWindow,
+    NewWindowTab,
+    Refresh,
+    Type,
+    SelectByIndex,
+    SelectByText,
+    SelectByValue,
+    SwitchWindow,
+    Uncheck,
+    ValidateElement,
+    VerifyText,
+    VerifyTitle,
+    Wait
+}
